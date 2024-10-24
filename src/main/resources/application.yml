@@ -1,0 +1,9 @@
+spring:
+  config:
+    import:
+      - classpath:configurations/application-server.yml
+      - classpath:configurations/application-datasource.yml
+      - classpath:configurations/application-jpa.yml
+      - classpath:configurations/application-security.yml
+      - classpath:configurations/application-mail.yml
+      - classpath:configurations/application-main.yml
